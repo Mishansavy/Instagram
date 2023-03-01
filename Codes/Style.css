@@ -195,9 +195,15 @@ body {
   justify-content: space-around;
 }
 .store-img {
-  width: 70%;
+  width: 90%;
   height: 70%;
-  transform: translate(-212%, 850%);
+  transform: translate(-146%, 700%);
+  margin: 10px;
+}
+.store-img2 {
+  width: 57%;
+  height: 70%;
+  transform: translate(-176%, 700%);
   margin: 10px;
 }
 
