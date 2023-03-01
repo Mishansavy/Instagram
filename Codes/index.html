@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="../Images/instagram-log.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="images-phonelogo">
+          <img id="img" class="main-img" src="../Images/home-phones.png" />
+          <img class="inside-img" src="../Images/screenshot1.png" />
+          <img class="inside-img" src="../Images/screenshot2.png" />
+          <img class="inside-img" src="../Images/screenshot3.png" />
+          <img class="inside-img" src="../Images/screenshot4.png" />
+        </div>
+        <!-- All login page -->
+        <div class="all-login-items">
+          <div class="login">
+            <!-- adding images -->
+            <div class="instagram-logo-img">
+              <img src="../Images/Instagram_logo.png" alt="" />
+            </div>
+            <!-- username and password -->
+            .
+            <div class="userpassword">
+              <input
+                id="username"
+                type="username"
+                placeholder="Phone number, username, or email"
+              />
+            </div>
+            <div class="userpassword">
+              <input type="password" id="password" placeholder="Password" />
+            </div>
+            <button type="submit">Log in</button>
+            <!-- divider -->
+            <div class="divider"></div>
+            <div class="divider2"></div>
+
+            <!-- log with fb and forgot password -->
+            <div class="logwithfacebook">
+              <a href="https://youtube.com/everythingiwant"
+                >Log in with Facebook</a
+              >
+            </div>
+            <div class="forgot">
+              <a href="mishanshah.com.np">Forgot password?</a>
+            </div>
+          </div>
+          <!-- out from the upper div. Signup div is the div containing 
+          don't have an account text and signup link  -->
+          <div class="signup">
+            Don't have an account?
+            <a href="facebook.mishanshah.com.np">Signup</a>
+          </div>
+          <!-- out from the upper div. justtext div contains only Get the app. text  -->
+          <div class="justtext">
+            <p>Get the app.</p>
+          </div>
+        </div>
+        <!-- down will contain the get it from playstore and microsoft because adding 
+        it in upper div will distrub the structure of the code and layout. -->
+        <div class="store">
+          <div class="store">
+            <img class="store-img" src="../Images/googleplaystore.png" />
+          </div>
+          <div class="store">
+            <img class="store-img" src="../Images/getfrommicrosoft.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    <!-- javascript for image sliding in every 5 secs -->
+
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("inside-img");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {
+        slideIndex = 1;
+      }
+      x[slideIndex - 1].style.display = "block";
+      setTimeout(carousel, 5000); // Change image every 5 seconds
+    }
+  </script>
+</html>
