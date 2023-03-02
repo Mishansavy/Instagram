@@ -98,7 +98,7 @@ input,
 }
 .divider2 {
   position: relative;
-  width: 205px;
+  width: 250px;
   margin: 0 auto;
   margin-top: 25px;
 }
@@ -106,7 +106,7 @@ input,
   content: "Or";
   position: absolute;
   left: 42%;
-  transform: translate(-50%, -50%);
+  transform: translate(33%, -50%);
   top: 50%;
 }
 
@@ -117,8 +117,8 @@ input,
   border-bottom: 1px solid #dadde1;
   display: flex;
   text-align: center;
-  width: 40%;
-  left: 105px;
+  width: 39%;
+  left: 120px;
 }
 .divider2::before {
   content: "";
@@ -127,8 +127,8 @@ input,
   border-bottom: 1px solid #dadde1;
   display: flex;
   text-align: center;
-  width: 40%;
-  left: -12px;
+  width: 32%;
+  left: 24px;
 }
 
 .logwithfacebook {
