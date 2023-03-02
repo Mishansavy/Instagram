@@ -45,6 +45,7 @@ body {
   border-width: 1px 1px 1px 1px;
   border-color: #dadde1;
   margin: 40px 0 0;
+  margin-top: -66%;
   padding: 20px 0 28px;
   background: #fff;
 }
@@ -195,7 +196,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  transform: translate(-40%, 360%);
+  transform: translate(
+    -40%,
+    241%
+  ); /*-40% is for moving contents from left to right
+  and vice-versa. 241% is for ,moving contents to up and down*/
 }
 .store-img {
   width: 90%;
