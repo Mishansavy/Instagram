@@ -52,6 +52,7 @@ body {
 input,
 [type="submit"] {
   margin-left: 4rem;
+  margin-bottom: 0.4rem;
   padding: 9px 0px 7px 9px;
   font-size: 12px;
   width: 13rem;
@@ -76,7 +77,7 @@ input,
   border-radius: 5.4px 5.4px 5.4px 5.4px;
   border: #0098f6;
   color: white;
-  height: 23px;
+  height: 29px;
   font-size: 11px;
 }
 
@@ -138,7 +139,7 @@ input,
 
 .logwithfacebook > a {
   text-decoration: none;
-  color: #385185;
+  color: #002c89;
   font-size: 14px;
   text-transform: inherit;
   cursor: pointer;
