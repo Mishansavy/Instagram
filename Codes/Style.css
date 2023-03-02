@@ -38,8 +38,7 @@ body {
 
 /* login page */
 .login {
-  width: 160%;
-  /* display: block; */
+  width: 124%;
   border-radius: 8px;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
@@ -50,13 +49,17 @@ body {
   background: #fff;
 }
 
-.login input {
+input,
+[type="submit"] {
+  margin-left: 4rem;
+  padding: 9px 0px 7px 9px;
+  font-size: 12px;
+  width: 13rem;
+  height: 2.2rem;
+  outline: none;
   background: #fafafa;
-  border: none;
-  width: 205px;
-  padding: 8px 16px;
-  transform: translate(30%, -18%);
-  margin-right: 20px;
+  border-radius: 3px;
+  border: 1px solid #efefef;
 }
 
 /* .userpassword {
@@ -69,7 +72,7 @@ body {
   margin: 0;
   margin-top: 10px;
   transform: translate(30%, -18%);
-  width: 205px;
+  width: 209px;
   border-radius: 5.4px 5.4px 5.4px 5.4px;
   border: #0098f6;
   color: white;
@@ -163,7 +166,7 @@ body {
   font-weight: 600;
 }
 .signup {
-  width: 160%;
+  width: 124%;
   display: block;
   border-radius: 8px;
   border-style: solid;
@@ -188,7 +191,7 @@ body {
   /* text-align: center; */
   font-size: 14px;
   font-weight: 400;
-  transform: translate(60%, -50%);
+  transform: translate(42%, -50%);
 }
 
 /* get it from google and microsoft */
@@ -197,18 +200,21 @@ body {
   flex-direction: row;
   justify-content: space-around;
   transform: translate(
-    -40%,
-    241%
+    -57%,
+    251%
   ); /*-40% is for moving contents from left to right
-  and vice-versa. 241% is for ,moving contents to up and down*/
+  and vice-versa. 241% is for ,moving contents   to up and down*/
 }
 .store-img {
-  width: 90%;
-  height: 70%;
+  height: 40px;
+  aspect-ratio: auto 134 / 40;
+  width: 134px;
 }
 .store-img2 {
-  width: 57%;
-  height: 70%;
+  height: 40px;
+  aspect-ratio: auto 134 / 40;
+  width: 134px;
+  margin-left: 2rem;
 }
 
 /* for mobile responsive  */
