@@ -1,4 +1,5 @@
-   // //data harvesting
+Store unused and others codes here
+//data harvesting
     // let saveFile = () => {
     //   // Get the data from each element on the form.
     //   const name = document.getElementById("username");
@@ -227,3 +228,20 @@ body {
   flex-direction: column;
   width: 25%;
 }
+<tr>
+            <td class="footer-list">Meta</td>
+            <td class="footer-list">About</td>
+            <td class="footer-list">Blog</td>
+            <td class="footer-list">Jobs</td>
+            <td class="footer-list">Help</td>
+            <td class="footer-list">API</td>
+            <td class="footer-list">Privacy</td>
+            <td class="footer-list">Terms</td>
+            <td class="footer-list">Top Accounts</td>
+            <td class="footer-list">Locations</td>
+            <td class="footer-list">Instagram Lite</td>
+            <td class="footer-list">Contact Uploading & Non-Users</td>
+            <td class="footer-list">Meta Verified</td>
+            <td class="footer-list">English</td>
+            <td class="footer-list">2023 Instagram from Meta</td>
+          </tr>
