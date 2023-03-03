@@ -249,29 +249,66 @@ is also under footer section. */
 }
 /* for mobile responsive  */
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  /* /* Adjust the font size and padding for smaller screens / */
+  body {
+    font-size: 16px;
+  }
   .main {
+    padding: 20px;
+  }
+  .inside-img {
+    height: 300px;
+  }
+  .userpassword input {
+    padding: 15px 10px;
+    font-size: 16px;
+  }
+  button {
+    padding: 12px;
+    font-size: 16px;
+  }
+  /* / Stack the elements vertically / */
+  .images-phonelogo,
+  .all-login-items {
     flex-direction: column;
     align-items: center;
   }
-  .images-phonelogo {
+  /* Reduce the width of the phone image  */
+  #img {
+    width: 200px;
+  }
+  /* Center the Instagram logo on smaller screens  */
+  .instagram-logo-img {
+    display: flex;
+    justify-content: center;
+  }
+  /* Adjust the width of the login box  */
+  .login {
+    width: 100%;
+  }
+  /*  Remove the divider2 element  */
+  .divider2 {
     display: none;
   }
-  .login,
+  /* Adjust the padding of the signup element  */
   .signup {
-    width: 90%;
+    padding: 10px 0;
   }
-  .login input {
-    transform: none;
-    margin: 0;
-    margin-bottom: 15px;
+  /* Adjust the font size and padding of the footer links  */
+  .footer a {
+    font-size: 12px;
+    padding: 5px;
   }
-  .login [type="submit"] {
-    transform: none;
-    margin: 0;
-    margin-top: 15px;
+  /* Stack the footer links vertically  */
+  .underlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  .justtext {
-    margin-top: 20%;
+  /* Adjust the margin of the app store icons  */
+  .store-img,
+  .store-img2 {
+    margin: 10px;
   }
 }
