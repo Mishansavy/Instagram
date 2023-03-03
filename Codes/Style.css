@@ -217,7 +217,17 @@ input,
   width: 134px;
   margin-left: 2rem;
 }
-
+/* for footer list  */
+.footer {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  align-items: center;
+}
+.footer-list {
+  padding-left: 5%;
+  color: #002c89;
+  background-color: #0095f6;
+}
 /* for mobile responsive  */
 
 @media only screen and (max-width: 768px) {
