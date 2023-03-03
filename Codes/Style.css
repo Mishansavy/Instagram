@@ -220,13 +220,32 @@ input,
 /* for footer list  */
 .footer {
   margin-bottom: 5%;
-  margin-left: 5%;
+  margin-left: 15%;
+  margin-right: 5%;
+
   align-items: center;
 }
-.footer-list {
-  padding-left: 5%;
-  color: #002c89;
-  background-color: #0095f6;
+.footer > a,
+.underlist > a {
+  font-size: 12px;
+}
+.footer > a {
+  padding-left: 1rem;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+/* used this seperate div .underlist to freely manipulate the items. This div
+is also under footer section. */
+.underlist {
+  align-items: center;
+  margin-left: 31%;
+  margin-top: 1rem;
+}
+.underlist > a {
+  padding-left: 1rem;
+  text-align: center;
+  color: #bdbdbd;
+  text-decoration: none;
 }
 /* for mobile responsive  */
 
